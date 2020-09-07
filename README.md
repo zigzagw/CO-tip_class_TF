@@ -14,7 +14,7 @@ conda env create -f environment.yml
 ```
 This will create a conda enviroment named tf-gpu with the all the required packages. It also has a suitable version of the Cuda toolkit and cuDNN already installed. Activate the environment with
 ```sh
-conda activate pytorch-gpu
+conda activate py3-tf12
 ```
 
 To create the datasets and train the models, run `jupyter notebook` in the repository folder, open the `train_TF.ipynb` notebook, and follow the instructions therein.

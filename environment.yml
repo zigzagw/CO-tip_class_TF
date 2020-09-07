@@ -1,4 +1,4 @@
-name: py3-tf13
+name: py3-tf12
 channels:
   - conda-forge
   - defaults
